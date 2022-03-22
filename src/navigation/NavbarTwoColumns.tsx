@@ -4,22 +4,20 @@ import Link from 'next/link';
 
 type INavbarProps = {
   logo: ReactNode;
-  children: ReactNode;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
-  <div className="flex flex-wrap justify-between items-center">
+  <div className="md:flex lg:flex justify-between items-center">
     <div>
       <Link href="/">
         <a>{props.logo}</a>
       </Link>
     </div>
-
-    <nav>
-      <ul className="navbar flex items-center font-medium text-xl text-gray-800">
-        {props.children}
-      </ul>
-    </nav>
+    <button className="bg-tpBlack-base px-5 py-5 font-bold text-md transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
+      <Link href="/">
+        <a>Connect Wallet</a>
+      </Link>
+    </button>
 
     <style jsx>
       {`
