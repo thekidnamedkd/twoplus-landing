@@ -9,39 +9,39 @@ import { TextBlockGreen } from '../textblock/TextBlockGreen';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-white">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <button className="px-5 py-5 font-bold text-md transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] text-black border-pink-400 shadow-pink-400 hover:bg-pink-400 hover:text-white">
+  <>
+    <Background color="bg-tpBlack-base" img="bg-top-img">
+      <Section yPadding="py-6">
+        <NavbarTwoColumns logo={<Logo xl pos />} />
+      </Section>
+
+      <Section yPadding="pt-20 pb-32">
+        <TextBlockGreen />
+      </Section>
+    </Background>
+    <Background img="" color="bg-tpNeon-base">
+      <section className="bg-transparent mb-5 md:my-10 text-tpBlack-base text-xl md:text-3xl font-bold bg-tpNeon-base shadow-tpNeon-base shadow-[0px_0px_25px_25px]">
+        <Marquee gradient={false}>
+          ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+
+          ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT
+          OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR
+          COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE
+        </Marquee>
+      </section>
+    </Background>
+    <Background color="bg-tpBlack-base" img="bg-bottom-img">
+      <Section yPadding="pt-20 pb-32">
+        <TextBlockBlue copy="Join DAO operators for a 6 week program to perfect your DAO worker skills - from mental fitness and self-management to DAO theory and CX design. Let’s go." />
+      </Section>
+      <section className="flex justify-center">
+        <button className="mb-20 -mt-20 mx-auto px-5 py-3 text-3xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
           <Link href="/">
-            <a>CONNECT WALLET</a>
+            <a>Interested?</a>
           </Link>
         </button>
-      </NavbarTwoColumns>
-    </Section>
-
-    <Section yPadding="pt-20 pb-32">
-      <TextBlockGreen copy="We empower digital communities to thrive and create positive impact by putting mental fitness at the core of collaboration." />
-    </Section>
-    <section className="my-10 text-black text-3xl font-bold bg-lime-400 shadow-lime-400 shadow-[0px_0px_25px_25px]">
-      <Marquee gradient={false}>
-        ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT
-        OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR
-        COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE
-        ||+ ABOUT OUR COURSE ||+ ABOUT OUR COURSE
-      </Marquee>
-    </section>
-    <Section yPadding="pt-20 pb-32">
-      <TextBlockBlue copy="Join DAO operators for a 6 week program to perfect your DAO worker skills - from mental fitness and self-management to DAO theory and CX design. Let’s go." />
-    </Section>
-    <section className="flex justify-center">
-      <button className="mx-auto px-20 py-5 font-bold text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] text-black border-pink-400 shadow-pink-400 hover:bg-pink-400 hover:text-white">
-        <Link href="/">
-          <a>I&apos;M INTERESTED</a>
-        </Link>
-      </button>
-    </section>
-  </Background>
+      </section>
+    </Background>
+  </>
 );
 
 export { Hero };

@@ -3,3 +3,27 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer {
+  @font-face {
+    font-family: 'CartographCF';
+    src: local('CartographCF'), url(~/public/fonts/CartographCF-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-display: swap;
+  };
+
+
+  @font-face {
+    font-family: 'CartographCF-Bold';
+    src: local('CartographCF-ExtraBold'), url(~/public/fonts/CartographCF-ExtraBold.woff2) format('woff2');
+    font-style: bold;
+    font-display: swap;
+  };
+
+  @font-face {
+    font-family: 'CartographCF-Thick';
+    src: local('CartographCF-HeavyItalic'), url(~/public/fonts/CartographCF-HeavyItalic.woff2) format('woff2');
+    font-style: italic;
+    font-display: swap;
+  };
+}
