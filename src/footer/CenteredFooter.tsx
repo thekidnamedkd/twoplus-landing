@@ -10,7 +10,7 @@ type ICenteredFooterProps = {
 };
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
-  <div className="text-center text-gray-500">
+  <div className="text-center text-gray-500 mt-10">
     <footer className="text-2xl">✌ TWOPLUS</footer>
     <nav>
       <ul className="text-gray-500 navbar mt-5 flex flex-row justify-center font-medium text-xl">

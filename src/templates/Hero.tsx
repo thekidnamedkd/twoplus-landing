@@ -18,7 +18,7 @@ const Hero = () => (
         <TextBlockGreen copy="Twoplus is a mental fitness club for DAO operators and power contributors. We’re focused on training the next generation of DAO facilitators in cutting edge DAO design and impactful Contributor Experience (CX)." />
       </Section>
       <section className="flex justify-center">
-        <button className="mb-20 mx-auto px-5 py-3 text-3xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpNeon-base shadow-tpNeon-base  hover:bg-tpNeon-base  hover:text-tpBlack-base">
+        <button className="-mt-[50px] mb-20 mx-auto px-5 py-3 text-3xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base hover:text-tpBlack-base">
           <Link href="/">
             <a>More on Mirror</a>
           </Link>
@@ -43,13 +43,21 @@ const Hero = () => (
         <TextBlockBlue copy="Join the top DAO operators for a six week cohort-based program on decentralized org design, CX, and mental fitness. You’ll leave ready to embody the skills needed to build the future of DAOs." />
       </Section>
       <section className="flex justify-center">
-        <button className="mb-20 mx-auto px-5 py-3 text-3xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
+        <button className="-mt-[50px] mb-20 mx-auto px-5 py-3 text-3xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
           <Link href="/">
             <a>Interested?</a>
           </Link>
         </button>
       </section>
     </Background>
+    <Marquee
+      className="absolute text-tpBlack-base text-l md:text-xl font-bold bg-tpSky-base shadow-tpSky-base shadow-[0px_0px_25px_25px]"
+      gradient={false}
+    >
+      {
+        '_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- '
+      }
+    </Marquee>
   </section>
 );
 
