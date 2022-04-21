@@ -1,0 +1,15 @@
+ @font-face {
+    font-family: 'CartographCF';
+    src: local('CartographCF'), url(~/public/fonts/CartographCF-Regular.woff2) format('woff2');
+  }
+
+
+  @font-face {
+    font-family: 'CartographCF-ExtraBold';
+    src: local('CartographCF-ExtraBold'), url(~/public/fonts/CartographCF-ExtraBold.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'CartographCF-HeavyItalic';
+    src: local('CartographCF-HeavyItalic'), url(~/public/fonts/CartographCF-HeavyItalic.woff2) format('woff2');
+  }

@@ -1,4 +1,10 @@
+@import url('../../public/fonts/stylesheet.css');
+
 @tailwind base;
+
+html{
+  @apply font-reg
+}
 
 @tailwind components;
 

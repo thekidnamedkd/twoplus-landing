@@ -13,6 +13,16 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    fontWeight: {
+      normal: 400,
+      bold: 600,
+      italic: 800,
+    },
+    fontFamily: {
+      reg: ['CartographCF'],
+      hev: ['CartographCF-ExtraBold'],
+      fan: ['CartographCF-HeavyItalic'],
+    },
     extend: {
       colors: {
         primary: {
@@ -37,12 +47,28 @@ module.exports = {
           800: '#2d3748',
           900: '#1a202c',
         },
+        tpBlack: {
+          base: '#09191C',
+        },
+        tpCream: {
+          base: '#FFFDF5',
+        },
+        tpNeon: {
+          base: '#E6EB00',
+        },
+        tpBerry: {
+          base: '#ED2677',
+        },
+        tpSky: {
+          base: '#BEE5ED',
+        },
+        tpKhaki: {
+          base: '#B5B800',
+        },
       },
-      lineHeight: {
-        hero: '4.5rem',
-      },
-      dropShadow: {
-        cw: '0 0 3px 3px rgba(0, 0, 0, 0.25)',
+      backgroundImage: {
+        'top-img': "url('~/public/assets/images/site_top_opti.png')",
+        'bottom-img': "url('~/public/assets/images/site_bottom_opti.png')",
       },
     },
   },
