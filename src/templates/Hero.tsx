@@ -25,21 +25,21 @@ const Hero = () => (
         gradient={false}
       >
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
       </Marquee>
 
       <Section yPadding="pt-20 pb-24">
