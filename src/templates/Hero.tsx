@@ -13,9 +13,9 @@ const Hero = () => (
       <Section yPadding="py-10">
         <NavbarTwoColumns logo={<Logo xl pos />} />
       </Section>
-      <Section yPadding="pt-28 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
-        <h1 className="px-5 font-hev text-5xl lg:text-6xl mx-auto text-left md:text-center">
-          « A mental fitness club for DAO contributors »
+      <Section yPadding="pt-10 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
+        <h1 className="px-5 font-hev text-3xl md:text-5xl lg:text-6xl mx-auto text-left md:text-center">
+          A mental fitness club for DAO contributors
         </h1>
       </Section>
     </Background>
@@ -25,21 +25,21 @@ const Hero = () => (
         gradient={false}
       >
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <p className="mr-10">✌</p>
       </Marquee>
 
       <Section yPadding="pt-20 pb-24">
