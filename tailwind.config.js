@@ -18,6 +18,11 @@ module.exports = {
       bold: 600,
       italic: 800,
     },
+    fontFamily: {
+      reg: ['CartographCF'],
+      hev: ['CartographCF-ExtraBold'],
+      fan: ['CartographCF-HeavyItalic'],
+    },
     extend: {
       colors: {
         primary: {
@@ -61,12 +66,9 @@ module.exports = {
           base: '#B5B800',
         },
       },
-      fontFamily: {
-        sans: ['CartographCF'],
-      },
       backgroundImage: {
-        'top-img': "url('~/public/assets/images/site_top.png')",
-        'bottom-img': "url('~/public/assets/images/site_bottom.png')",
+        'top-img': "url('~/public/assets/images/site_top_opti.png')",
+        'bottom-img': "url('~/public/assets/images/site_bottom_opti.png')",
       },
     },
   },
