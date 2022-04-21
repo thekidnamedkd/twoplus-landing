@@ -14,8 +14,8 @@ const TextBlockBlue = () => (
       <h1 className="font-reg  text-xl md:text-3xl text-tpCream-base whitespace-pre-line">
         Join like-minded contributors for a six-week cohort-based program where
         you&apos;ll learn about mental fitness, DAO leadership and contributor
-        experience (CX) design. You&apos;ll become part of Twoplus and gain the
-        skills needed to build thriving DAOs.
+        experience (CX) design. You&apos;ll become part of Twoplus and start
+        building the skills needed to build thriving DAOs.
       </h1>
     </section>
   </header>
