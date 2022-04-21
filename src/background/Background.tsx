@@ -8,7 +8,7 @@ type IBackgroundProps = {
 
 const Background = (props: IBackgroundProps) => (
   <div
-    className={`${props.img} bg-cover bg-no-repeat bg-center ${props.color}`}
+    className={`${props.img} h-screen w-auto bg-no-repeat bg-center ${props.color}`}
   >
     {props.children}
   </div>
