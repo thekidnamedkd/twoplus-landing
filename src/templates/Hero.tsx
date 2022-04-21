@@ -8,18 +8,16 @@ import { TextBlockBlue } from '../textblock/TextBlockBlue';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <body>
+  <section className="relative">
     <Background color="bg-tpBlack-base" img="bg-top-img">
       <Section yPadding="py-10">
         <NavbarTwoColumns logo={<Logo xl pos />} />
       </Section>
-      <div className="flex items-center min-h-[50%]">
-        <Section yPadding="md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
-          <h1 className="px-5 font-hev text-4xl md:text-5xl lg:text-6xl mx-auto text-left md:text-center">
-            « A mental fitness club for DAO contributors »
-          </h1>
-        </Section>
-      </div>
+      <Section yPadding="pt-28 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
+        <h1 className="px-5 font-hev text-5xl lg:text-6xl mx-auto text-left md:text-center">
+          « A mental fitness club for DAO contributors »
+        </h1>
+      </Section>
     </Background>
     <Background color="bg-tpBlack-base" img="bg-bottom-img">
       <Marquee
@@ -27,21 +25,21 @@ const Hero = () => (
         gradient={false}
       >
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
         <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <p className="mr-10 font-fan">✌</p>
       </Marquee>
 
       <Section yPadding="pt-20 pb-24">
@@ -93,7 +91,7 @@ const Hero = () => (
       </p>
       <p className="mr-10">✌</p>
     </Marquee>
-  </body>
+  </section>
 );
 
 export { Hero };
