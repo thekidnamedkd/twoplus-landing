@@ -8,14 +8,14 @@ import { TextBlockBlue } from '../textblock/TextBlockBlue';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <section className="relative">
+  <main className="relative">
     <Background color="bg-tpBlack-base" img="bg-top-img">
       <Section yPadding="py-10">
         <NavbarTwoColumns logo={<Logo xl pos />} />
       </Section>
-      <Section yPadding="pt-28 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
-        <h1 className="px-5 font-hev text-5xl lg:text-6xl mx-auto text-left md:text-center">
-          « A mental fitness club for DAO contributors »
+      <Section yPadding="pt-10 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
+        <h1 className="px-5 font-hev text-3xl md:text-5xl lg:text-6xl mx-auto text-left md:text-center">
+          A mental fitness club for DAO contributors
         </h1>
       </Section>
     </Background>
@@ -24,24 +24,19 @@ const Hero = () => (
         className="absolute text-tpBlack-base text-l md:text-xl font-bold bg-tpNeon-base shadow-tpNeon-base shadow-[0px_0px_25px_25px]"
         gradient={false}
       >
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10 font-fan">✌</p>
+        <section className="flex">
+          {Array.from({ length: 20 }, (_, i) => (
+            <>
+              <p className="mr-10 font-fan" key={i}>
+                ABOUT OUR COURSE
+              </p>
+              <p className="mr-10" key={i}>
+                ✌
+              </p>
+            </>
+          ))}
+        </section>
       </Marquee>
-
       <Section yPadding="pt-20 pb-24">
         <TextBlockBlue />
       </Section>
@@ -58,40 +53,20 @@ const Hero = () => (
       gradient={false}
       direction="right"
     >
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
+      <section className="flex">
+        {Array.from({ length: 20 }, (_, i) => (
+          <>
+            <p className="mr-10 font-fan" key={i}>
+              A MENTAL FITNESS CLUB FOR DAO CONTRIBUTORS
+            </p>
+            <p className="mr-10" key={i}>
+              ✌
+            </p>
+          </>
+        ))}
+      </section>
     </Marquee>
-  </section>
+  </main>
 );
 
 export { Hero };
