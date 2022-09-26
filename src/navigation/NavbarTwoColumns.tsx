@@ -15,7 +15,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
     </div>
     <button className="bg-tpBlack-base ml-5 mt-10 md:m-0 px-5 py-5 font-bold text-md transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
       <Link href="https://jv2bphd1l4e.typeform.com/to/J24VtRtW">
-        <a target="_blank">Register Interest</a>
+        <a target="_blank">Apply Here</a>
       </Link>
     </button>
 
