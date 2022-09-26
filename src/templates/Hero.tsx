@@ -15,7 +15,7 @@ const Hero = () => (
       </Section>
       <Section yPadding="pt-10 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
         <h1 className="px-5 font-hev text-3xl md:text-5xl lg:text-6xl mx-auto text-left md:text-center">
-          A mental fitness club for DAO contributors
+          A mental fitness gym for Web3
         </h1>
       </Section>
     </Background>
@@ -28,7 +28,7 @@ const Hero = () => (
           {Array.from({ length: 20 }, (_, i) => (
             <>
               <p className="mr-10 font-fan" key={i}>
-                ABOUT OUR COURSE
+                APPLY TO THE BETA
               </p>
               <p className="mr-10" key={i}>
                 ✌
@@ -42,8 +42,8 @@ const Hero = () => (
       </Section>
       <Section yPadding="pb-28">
         <button className="mx-auto flex px-5 py-3 text-2xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
-          <Link href="https://jv2bphd1l4e.typeform.com/to/J24VtRtW">
-            <a target="_blank">Register Interest</a>
+          <Link href="https://jv2bphd1l4e.typeform.com/to/AkxTX8EB">
+            <a target="_blank">Apply here</a>
           </Link>
         </button>
       </Section>
@@ -57,7 +57,7 @@ const Hero = () => (
         {Array.from({ length: 20 }, (_, i) => (
           <>
             <p className="mr-10 font-fan" key={i}>
-              A MENTAL FITNESS CLUB FOR DAO CONTRIBUTORS
+              A MENTAL FITNESS GYM FOR WEB3
             </p>
             <p className="mr-10" key={i}>
               ✌
