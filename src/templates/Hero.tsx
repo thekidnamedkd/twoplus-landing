@@ -8,14 +8,14 @@ import { TextBlockBlue } from '../textblock/TextBlockBlue';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <section className="relative">
+  <main className="relative">
     <Background color="bg-tpBlack-base" img="bg-top-img">
       <Section yPadding="py-10">
         <NavbarTwoColumns logo={<Logo xl pos />} />
       </Section>
       <Section yPadding="pt-10 pb-32 md:pt-60 md:pb-60 lg:pt-60 lg:pb-60">
         <h1 className="px-5 font-hev text-3xl md:text-5xl lg:text-6xl mx-auto text-left md:text-center">
-          A mental fitness club for DAO contributors
+          A mental fitness gym for Web3
         </h1>
       </Section>
     </Background>
@@ -24,31 +24,26 @@ const Hero = () => (
         className="absolute text-tpBlack-base text-l md:text-xl font-bold bg-tpNeon-base shadow-tpNeon-base shadow-[0px_0px_25px_25px]"
         gradient={false}
       >
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
-        <p className="mr-10 font-fan">ABOUT OUR COURSE</p>
-        <p className="mr-10">✌</p>
+        <section className="flex">
+          {Array.from({ length: 20 }, (_, i) => (
+            <>
+              <p className="mr-10 font-fan" key={i}>
+                APPLY TO THE BETA
+              </p>
+              <p className="mr-10" key={i}>
+                ✌
+              </p>
+            </>
+          ))}
+        </section>
       </Marquee>
-
       <Section yPadding="pt-20 pb-24">
         <TextBlockBlue />
       </Section>
       <Section yPadding="pb-28">
         <button className="mx-auto flex px-5 py-3 text-2xl lg:px-20 lg:py-5 font-bold sm:text-4xl lg:text-4xl transition-colors duration-300 border rounded-lg shadow-[0px_0px_10px_3px] bg-tpBlack-base text-tpCream-base border-tpBerry-base shadow-tpBerry-base  hover:bg-tpBerry-base  hover:text-tpBlack-base">
-          <Link href="https://jv2bphd1l4e.typeform.com/to/J24VtRtW">
-            <a target="_blank">Register Interest</a>
+          <Link href="https://jv2bphd1l4e.typeform.com/to/AkxTX8EB">
+            <a target="_blank">Apply here</a>
           </Link>
         </button>
       </Section>
@@ -58,40 +53,20 @@ const Hero = () => (
       gradient={false}
       direction="right"
     >
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
-      <p className="mr-10 font-fan">
-        A MENTAL FITNESS AND DAO DESIGN CLUB FOR CONTRIBUTORS
-      </p>
-      <p className="mr-10">✌</p>
+      <section className="flex">
+        {Array.from({ length: 20 }, (_, i) => (
+          <>
+            <p className="mr-10 font-fan" key={i}>
+              A MENTAL FITNESS GYM FOR WEB3
+            </p>
+            <p className="mr-10" key={i}>
+              ✌
+            </p>
+          </>
+        ))}
+      </section>
     </Marquee>
-  </section>
+  </main>
 );
 
 export { Hero };
