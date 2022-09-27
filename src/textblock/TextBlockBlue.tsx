@@ -19,7 +19,7 @@ const TextBlockBlue = () => (
           Cost
         </h3>
         <div>0.3ETH for Individuals</div>
-        <div>Businesses -> DM us</div>
+        <div>Businesses ➞ DM us</div>
       </div>
       <div>
         <h3 className="text-l md:text-xl font-hev underline underline-offset-4">
